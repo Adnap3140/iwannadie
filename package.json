@@ -11,7 +11,7 @@
     "@testing-library/user-event": "^13.5.0",
     "aws-amplify": "^4.3.19",
     "mapbox-gl": "^1.13.2",
-    "react": "^18.0.0",
+    "react": "17.0",
     "react-dom": "^18.0.0",
     "react-map-gl": "^7.0.11",
     "react-router-dom": "^6.3.0",
