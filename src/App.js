@@ -15,8 +15,9 @@ import { withAuthenticator } from '@aws-amplify/ui-react';
 
 Amplify.configure(awsconfig);
 
-function App() {
-  return (
+class App extends Component {
+  render() {
+    return  (
     <div className="App">
           <Routes>
             <Route exact path='/' element={<div><NavBar/><GamesDisplay/></div>} />
@@ -25,6 +26,7 @@ function App() {
           </Routes>
         </div>
   );
+}
 }
 
 export default withAuthenticator(App);
