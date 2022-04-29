@@ -1,4 +1,5 @@
 
+import React, { Component } from 'react'
 import './App.css';
 import Amplify from 'aws-amplify';
 import "@aws-amplify/ui-react/styles.css";
