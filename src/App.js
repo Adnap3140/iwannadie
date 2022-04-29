@@ -10,6 +10,7 @@ import {
 import { Routes, Route } from 'react-router-dom';
 import CreateGame from './CreateGame.js';
 import EditGame from './EditGame.js';
+import { withAuthenticator } from '@aws-amplify/ui-react';
 
 
 Amplify.configure(awsconfig);
@@ -26,4 +27,4 @@ function App() {
   );
 }
 
-export default App;
+export default withAuthenticator(App);
